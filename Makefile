@@ -10,7 +10,7 @@ GAS_LIMIT := 1000000
 
 # Contract-specific details
 CONTRACT_NAME := CelestialNFT   
-CONTRACT_ADDRESS := 0x1eadac3e03d8c15fc2ca87f78b3d9893ceb0108d
+CONTRACT_ADDRESS := 0x7328b929F5fd6Bd5195E6FD06A7c846CEE05A408
 
 # Paths and files
 SRC_DIR := src
