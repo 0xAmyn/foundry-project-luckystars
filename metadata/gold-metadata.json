@@ -1,0 +1,12 @@
+{
+    "name": "Mystical Gold Card",
+    "description": "The Mystical Card of Gold tier shines with a radiant aura. It bestows great wealth and potent magic, making it a prized possession for any adventurer seeking fortune and power.",
+    "image": "ipfs://QmefcuXz5ctuWiVsSDyKcC8U4a8YeRvDsqdBdGfySEfxhK/gold.jpg",
+    "attributes": [
+      {
+        "trait_type": "Tier",
+        "value": "Gold"
+      }
+    ]
+  }
+  

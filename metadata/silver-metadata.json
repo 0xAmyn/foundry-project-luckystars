@@ -1,0 +1,12 @@
+{
+    "name": "Mystical Silver Card",
+    "description": "This Mystical Card of Silver tier is a rare find, imbued with moderate magical powers. It offers a balanced blend of protection and enhancement, perfect for those who value versatility.",
+    "image": "ipfs://QmefcuXz5ctuWiVsSDyKcC8U4a8YeRvDsqdBdGfySEfxhK/silver.jpg",
+    "attributes": [
+      {
+        "trait_type": "Tier",
+        "value": "Silver"
+      }
+    ]
+  }
+  

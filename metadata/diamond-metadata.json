@@ -1,0 +1,12 @@
+{
+    "name": "Mystical Diamond Card",
+    "description": "This Mystical Card of Diamond tier is the most powerful artifact from the enchanted mines. It grants the holder unparalleled strength and mystical abilities, unmatched by any other.",
+    "image": "ipfs://QmefcuXz5ctuWiVsSDyKcC8U4a8YeRvDsqdBdGfySEfxhK/diamond.jpg",
+    "attributes": [
+      {
+        "trait_type": "Tier",
+        "value": "Diamond"
+      }
+    ]
+  }
+  

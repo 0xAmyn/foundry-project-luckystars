@@ -1,0 +1,12 @@
+{
+    "name": "Mystical Coal Card",
+    "description": "Though the Mystical Card of Coal tier lacks the brilliance of higher tiers, it holds its own charm. Crafted from the deepest parts of the enchanted mines, it carries a humble yet sturdy magic, ideal for beginners.",
+    "image": "ipfs://QmefcuXz5ctuWiVsSDyKcC8U4a8YeRvDsqdBdGfySEfxhK/coal.jpg",
+    "attributes": [
+      {
+        "trait_type": "Tier",
+        "value": "Coal"
+      }
+    ]
+  }
+  

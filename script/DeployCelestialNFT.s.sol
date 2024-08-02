@@ -10,7 +10,10 @@ contract DeployCelestialNFT is Script {
     CelestialNFT celestialNFT;
 
     uint256 public constant SEPOLIA_CHAINID = 11155111;
+    uint256 public constant ARB_SEPOLIA_CHAINID = 421614;
     uint256 public constant LOCAL_CHAINID = 31337;
+    uint256 public constant ENTER_COST_ETH = 0.001 ether;
+    string public constant BASE_URL = "ipfs://QmQdYJbU95teoVsRz9n5PoD2gBfqdth5b81R6cuJ8pr8aR/";
 
     function run() external returns (CelestialNFT, address vrfcoord) {
         ConfigHelper helper = new ConfigHelper();
@@ -19,12 +22,16 @@ contract DeployCelestialNFT is Script {
 
         if (block.chainid == SEPOLIA_CHAINID) {
             config = helper.getSepoliaConfig();
+        } else if (block.chainid == ARB_SEPOLIA_CHAINID) {
+            config = helper.getArbSepoliaConfig();
         } else if (block.chainid == LOCAL_CHAINID) {
             (config, mock) = helper.getAnvilConfig();
         }
 
         vm.startBroadcast();
         celestialNFT = new CelestialNFT(
+            ENTER_COST_ETH,
+            BASE_URL,
             config.vrfCoordinator,
             config.keyHash,
             config.subscriptionId
